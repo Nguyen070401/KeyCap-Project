@@ -1,0 +1,47 @@
+
+.Container{
+width: 100%;
+height: 100vh;
+display: flex;
+position: relative;
+overflow: hidden;
+}
+
+.ImgContainer {
+height: 100%;
+flex: 1;
+}
+
+.Image {
+height: 85%;
+}
+
+.InfoContainer{
+flex: 1;
+padding: 50px;
+margin-bottom: 80px;
+}
+
+.Title{
+font-size: 70px;
+}
+
+.Desc{
+margin: 40px 0px;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 3px;
+}
+
+.Button{
+padding: 15px;
+font-size: 17px;
+font-weight: 500;
+background-color: #57a6be;
+cursor: pointer;
+color: black;
+border-radius: 5px;
+margin-left: -2px;
+text-decoration: none;
+}
+
